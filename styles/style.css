@@ -1,0 +1,81 @@
+body{
+    background: #000a926e;
+} 
+.menu {
+    background: #feb6006e;
+    padding: 20px;
+    display: flex;
+    /* centro */
+    justify-content: space-between;
+    /* izquierda */
+    /* justify-content: flex-start; */
+    /* Derecha */
+    /* justify-content: flex-end; */
+
+}
+.menu .container-logins{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+.container-body{
+    background: #0092556e;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column;
+    align-items: flex-start; */
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    background: #FFF;
+    font-size: 100px;
+    display: flex;
+    /* ordena elementos de arriba a abajo */
+    align-items: center;
+    /* Ordena elementos de izquierda a derecha*/
+    justify-content: center;
+}
+
+.container-body .box-one{
+    background: #5d92006e;
+}
+.container-body .box-two{
+    background: #0500926e;
+}
+.container-body .box-three{
+    background: #7c92006e;
+}
+
+.container-body .box-four{
+    background: #9249006e;
+}
+
+.container-body .box-five{
+    background: #920018;
+}
+.container-body .box-six{
+    background: #079200;
+}
+.container-body .box-seven{
+    background: #002c92;
+}
+.container-body .box-eight{
+    background: #920a00;
+}
+.container-body .box-nine{
+    background: #7f0092;
+}
+.container-body .box-ten{
+    background: #ffd500;
+}
+
+.footer{
+    background: #7f00926e;
+    height: 200px;
+}
+

@@ -1,0 +1,7 @@
+.container-cards{
+    display: flex;
+}
+
+.card-img, .card-img-top {
+    padding: 20px;
+}
